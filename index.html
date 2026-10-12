@@ -1,0 +1,1976 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PassFrame Landing Site</title>
+<meta name="description" content="Expert live online 11+ tuition in Maths, English, Verbal Reasoning and Non-Verbal Reasoning, taught by experienced, skilled tutors, including Grammar School and Russell Group alumni.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
+<style>
+  :root {
+    --bg: #ffffff;
+    --ink: #1e1633;
+    --muted: #5b5170;
+    --wash: #f7f2fd;
+    --line: #e5dbf4;
+    --brand: #8b2be2;
+    --brand-text: #7a1fd0;
+    --deep: #4a1290;
+    --tint: #d3aef7;
+    --on-brand: #ffffff;
+    --band: #6d1bc2;
+    --band-ink: #ffffff;
+    --band-btn: #ffffff;
+    --band-btn-ink: #5a12a8;
+    --glow: rgba(139, 43, 226, 0.12);
+    --top: #ebdffa;
+    --lid: #2a2046;
+    --lid-base: #c9bde3;
+
+    --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    --text: "Source Serif 4", Charter, "Iowan Old Style", Georgia, serif;
+    --gutter: clamp(20px, 5vw, 48px);
+
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #130f1f;
+      --ink: #f3eefb;
+      --muted: #b6abcd;
+      --wash: #1b1530;
+      --line: #352a50;
+      --brand: #9b45ee;
+      --brand-text: #c393ff;
+      --deep: #7a35d6;
+      --tint: #5f3f93;
+      --band: #2b1257;
+      --band-btn-ink: #3a1670;
+      --glow: rgba(155, 69, 238, 0.2);
+      --top: #2a1d4d;
+      --lid: #4a3b7d;
+      --lid-base: #6d5f9a;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #130f1f;
+    --ink: #f3eefb;
+    --muted: #b6abcd;
+    --wash: #1b1530;
+    --line: #352a50;
+    --brand: #9b45ee;
+    --brand-text: #c393ff;
+    --deep: #7a35d6;
+    --tint: #5f3f93;
+    --band: #2b1257;
+    --band-btn-ink: #3a1670;
+    --glow: rgba(155, 69, 238, 0.2);
+      --top: #2a1d4d;
+      --lid: #4a3b7d;
+      --lid-base: #6d5f9a;
+  }
+
+  html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + var(--hdr, 84px)); }
+  *, *::before, *::after { box-sizing: inherit; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--text);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a:focus-visible {
+    outline: 3px solid var(--brand-text);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  .wrap { max-width: 1120px; margin-inline: auto; padding-inline: var(--gutter); }
+
+  /* Header */
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    min-height: var(--hdr, 84px);
+    padding-block: 0;
+  }
+  .mark {
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 1;
+    text-decoration: none;
+    color: var(--brand-text);
+  }
+  .mark-name {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+  }
+  .mark-sub {
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: 0.62rem;
+    letter-spacing: 0.42em;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .nav { display: flex; align-items: center; gap: 28px; }
+  .nav-links { display: flex; gap: 28px; font-family: var(--display); font-weight: 500; font-size: 0.98rem; }
+  .nav-links a { color: var(--ink); text-decoration: none; }
+  .nav-links a:hover { color: var(--brand-text); }
+
+  /* Buttons and links */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.95em 1.5em;
+    border-radius: 999px;
+    text-decoration: none;
+    background: var(--brand);
+    color: var(--on-brand);
+    border: 2px solid var(--brand);
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .btn:hover { background: var(--deep); border-color: var(--deep); }
+  .btn-sm { padding: 0.7em 1.15em; font-size: 0.94rem; }
+  .btn-light { background: var(--band-btn); border-color: var(--band-btn); color: var(--band-btn-ink); }
+  .btn-light:hover { background: transparent; border-color: #fff; color: #fff; }
+  .btn-outline { background: transparent; color: var(--brand-text); border-color: var(--brand); }
+  .btn-outline:hover { background: var(--wash); border-color: var(--deep); color: var(--deep); }
+  .link {
+    font-family: var(--display);
+    font-weight: 600;
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--brand);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3em;
+  }
+  .link:hover { color: var(--brand-text); }
+  .pill-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0.5em 1em;
+    border: 1.5px solid var(--brand);
+    border-radius: 999px;
+    text-decoration: none;
+    background: var(--wash);
+  }
+  .pill-link::after { content: "\2197"; font-size: 0.85em; }
+  .pill-link:hover { background: var(--brand); color: #fff; border-color: var(--brand); }
+
+  /* Hero */
+  .masthead { background: var(--top); }
+  .hero {
+    padding-block: clamp(48px, 9vw, 112px) clamp(56px, 8vw, 96px);
+    background: linear-gradient(180deg, var(--top) 0, var(--bg) 640px);
+  }
+  .hero-title {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: clamp(2.4rem, 7.4vw, 5rem);
+    line-height: 1;
+    letter-spacing: -0.035em;
+    margin: 0;
+  }
+  .hero-title span { display: block; }
+  .hero-title em { font-style: normal; color: var(--brand); }
+  .strap {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    letter-spacing: -0.02em;
+    color: var(--brand-text);
+    margin: 24px 0 0;
+  }
+  .lede { max-width: 38rem; margin: 12px 0 0; font-size: 1.25rem; color: var(--muted); }
+  .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px; margin-top: 32px; }
+
+  /* The lesson hour */
+  .hour { margin-top: clamp(56px, 8vw, 96px); }
+  .hour-title { font-family: var(--display); font-weight: 700; font-size: 1.05rem; margin: 0 0 14px; }
+  .bar { display: flex; gap: 6px; height: 64px; }
+  .seg { border-radius: 999px; transition: opacity 0.2s; }
+  .seg[data-k="a"] { flex: 10 1 0; background: var(--tint); }
+  .seg[data-k="b"] { flex: 45 1 0; background: var(--brand); }
+  .seg[data-k="c"] { flex: 5 1 0; background: var(--deep); }
+  .ticks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: var(--display);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .legend {
+    list-style: none;
+    margin: 28px 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .leg { border-top: 4px solid var(--c); padding-top: 14px; transition: opacity 0.2s; }
+  .leg[data-k="a"] { --c: var(--tint); }
+  .leg[data-k="b"] { --c: var(--brand); }
+  .leg[data-k="c"] { --c: var(--deep); }
+  .leg-name { font-family: var(--display); font-weight: 700; font-size: 1.15rem; margin: 0; }
+  .leg-time { display: block; font-family: var(--display); font-size: 0.92rem; color: var(--brand-text); margin-top: 2px; }
+  .leg-text { margin: 8px 0 0; font-size: 1rem; color: var(--muted); }
+
+  .hour:has(.leg[data-k="a"]:hover) :is(.seg, .leg):not([data-k="a"]),
+  .hour:has(.leg[data-k="b"]:hover) :is(.seg, .leg):not([data-k="b"]),
+  .hour:has(.leg[data-k="c"]:hover) :is(.seg, .leg):not([data-k="c"]) { opacity: 0.35; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html { scroll-behavior: smooth; }
+    .bar { animation: reveal 1.3s cubic-bezier(0.22, 0.7, 0.2, 1) 0.35s both; }
+    @keyframes reveal {
+      from { clip-path: inset(0 100% 0 0); }
+      to { clip-path: inset(0 0 0 0); }
+    }
+  }
+
+  /* Sections */
+  .section { padding-block: clamp(64px, 9vw, 112px); }
+  .section-wash { background: var(--wash); }
+  .h2 {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: clamp(1.9rem, 4.4vw, 3rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 0;
+    max-width: 20ch;
+  }
+  .intro { max-width: 36rem; margin: 20px 0 0; color: var(--muted); }
+
+  /* Lessons */
+  .lessons { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 6vw, 80px); margin-top: 56px; }
+  .lesson-name { font-family: var(--display); font-weight: 700; font-size: 1.4rem; line-height: 1.2; margin: 0 0 20px; }
+  .subjects { list-style: none; margin: 0; padding: 0; }
+  .subject { display: grid; grid-template-columns: 56px 1fr; gap: 18px; padding-block: 20px; border-top: 1px solid var(--line); }
+  .tile {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: var(--wash);
+    color: var(--brand-text);
+    display: grid;
+    place-items: center;
+  }
+  .subject-name { font-family: var(--display); font-weight: 700; font-size: 1.1rem; margin: 0; }
+  .subject-text { margin: 2px 0 0; color: var(--muted); font-size: 1rem; }
+  .note { margin-top: 56px; padding-left: 20px; border-left: 3px solid var(--brand); max-width: 40rem; }
+  .note p { margin: 0; }
+
+  /* Tutors */
+  .tutors { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 48px; }
+  .tutor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 28px;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+  }
+  .avatar {
+    width: 84px;
+    height: 84px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: var(--brand);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: 2.1rem;
+  }
+  .avatar img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .tutor-name { font-family: var(--display); font-weight: 700; font-size: 1.3rem; margin: 0; }
+  .tutor-role { font-family: var(--display); font-weight: 700; font-size: 0.9rem; color: var(--brand-text); margin: 2px 0 0; }
+  .role-bubble {
+    display: inline-block;
+    margin: 6px 0 0;
+    padding: 3px 12px;
+    border-radius: 999px;
+    background: var(--tint);
+    color: var(--deep);
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+  }
+  .tutor-role + .role-bubble { margin-top: 6px; }
+  .tutor-facts { list-style: none; margin: 4px 0 0; padding: 0; color: var(--muted); font-size: 1rem; }
+  .tutor-role + .tutor-facts { margin-top: 10px; }
+  .role-bubble + .tutor-facts { margin-top: 10px; }
+  .tutor-name + .tutor-facts { margin-top: 8px; }
+  .tutor .link { margin-top: auto; }
+
+  /* Pricing */
+  .price-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 6vw, 80px); margin-top: 48px; align-items: start; }
+  .rates { display: flex; flex-wrap: wrap; gap: 24px clamp(28px, 5vw, 56px); }
+  .amt {
+    display: block;
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: clamp(3.5rem, 9vw, 6rem);
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    color: var(--brand-text);
+  }
+  .per { display: block; margin-top: 8px; font-family: var(--display); font-weight: 600; font-size: 1.15rem; }
+  .price-text { margin: 24px 0 0; color: var(--muted); max-width: 28rem; }
+  .price-text strong { color: var(--ink); font-weight: 600; }
+  .includes-title { font-family: var(--display); font-weight: 700; font-size: 1.15rem; margin: 0 0 8px; }
+  .includes { list-style: none; margin: 0; padding: 0; }
+  .includes li { padding-block: 14px; border-top: 1px solid var(--line); }
+  .referral {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 12px 28px;
+    align-items: center;
+    margin-top: 56px;
+    padding: 28px clamp(24px, 4vw, 40px);
+    background: var(--wash);
+    border-radius: 24px;
+  }
+  .ref-amt { font-family: var(--display); font-weight: 800; font-size: clamp(2.6rem, 6vw, 3.6rem); line-height: 1; letter-spacing: -0.03em; color: var(--brand-text); }
+  .ref-title { font-family: var(--display); font-weight: 700; font-size: 1.2rem; margin: 0; }
+  .ref-text { margin: 4px 0 0; color: var(--muted); }
+
+  /* Steps */
+  .steps { list-style: none; counter-reset: step; margin: 56px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+  .steps li { counter-increment: step; position: relative; padding-top: 56px; }
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--brand);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-family: var(--display);
+    font-weight: 700;
+  }
+  .steps li::after { content: ""; position: absolute; top: 17px; left: 48px; right: -20px; height: 2px; background: var(--line); }
+  .steps li:last-child::after { display: none; }
+  .step-name { font-family: var(--display); font-weight: 700; font-size: 1.2rem; margin: 0; }
+  .step-text { margin: 6px 0 0; color: var(--muted); font-size: 1rem; }
+
+  /* Closing band */
+  .cta { background: var(--band); color: var(--band-ink); padding-block: clamp(64px, 9vw, 104px); }
+  .cta .h2 { max-width: 16ch; }
+  .cta p { max-width: 34rem; margin: 20px 0 32px; opacity: 0.92; }
+
+  /* Footer */
+  .footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; padding-block: 36px; color: var(--muted); font-size: 0.95rem; }
+  .footer p { margin: 0; }
+
+  /* Cursor effect: fine pointers only, off when reduced motion is requested. The normal cursor stays visible. */
+  .cursor { display: none; }
+  @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    .cursor { display: block; }
+  }
+  .c-dot, .c-ring {
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0;
+    will-change: transform;
+    transition: opacity 0.3s;
+  }
+  .c-dot { width: 8px; height: 8px; margin: -4px 0 0 -4px; background: var(--brand); }
+  .c-ring {
+    width: 38px;
+    height: 38px;
+    margin: -19px 0 0 -19px;
+    border: 2px solid var(--brand);
+    background: var(--glow);
+    transition: opacity 0.3s, width 0.2s, height 0.2s, margin 0.2s, border-color 0.2s;
+  }
+  .cursor.on .c-dot, .cursor.on .c-ring { opacity: 1; }
+  .cursor.hot .c-ring { width: 58px; height: 58px; margin: -29px 0 0 -29px; }
+  .cursor.band .c-dot { background: #fff; }
+  .cursor.band .c-ring { border-color: #fff; background: rgba(255, 255, 255, 0.14); }
+
+  @media (max-width: 820px) {
+    .nav-links { display: none; }
+    .lessons, .price-grid, .extras { grid-template-columns: 1fr; }
+    .steps { grid-template-columns: 1fr 1fr; }
+    .steps li::after { display: none; }
+  }
+  @media (max-width: 760px) {
+    .legend { grid-template-columns: 1fr; gap: 24px; }
+  }
+  @media (max-width: 520px) {
+    .steps { grid-template-columns: 1fr; }
+    .bar { height: 44px; }
+    .referral { grid-template-columns: 1fr; }
+  }
+
+  /* Lesson demo */
+  .demo {
+    max-width: 800px;
+    max-width: min(800px, max(480px, calc((100vh - 240px) * 1.754)));
+    max-width: min(800px, max(480px, calc((100svh - 240px) * 1.754)));
+    margin: 48px auto 0;
+  }
+  .demo-stage { position: relative; }
+  .scene { display: block; width: 100%; height: auto; }
+  .scene text { font-family: var(--display); }
+  .scene .lid { fill: var(--lid); }
+  .scene .lid-base { fill: var(--lid-base); }
+  .scene .lid-notch { fill: var(--lid); opacity: 0.3; }
+  .scene .ic { fill: none; stroke: #5b5170; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+  .t-top { font-size: 17px; font-weight: 700; fill: #1e1633; }
+  .t-live { font-size: 15px; font-weight: 600; fill: #5b5170; }
+  .t-pill { font-size: 16px; font-weight: 700; fill: #5a12a8; }
+  .t-label { font-size: 16px; font-weight: 700; fill: #fff; }
+  .t-title { font-size: 20px; font-weight: 800; fill: #1e1633; }
+  .t-share { font-size: 14px; font-weight: 700; fill: #5a12a8; }
+  .t-badge { font-size: 18px; font-weight: 800; fill: #fff; }
+  .t-q { font-size: 24px; font-weight: 700; fill: #1e1633; }
+  .t-ans { font-size: 26px; font-weight: 800; fill: #4a1290; }
+  .t-num { font-size: 50px; font-weight: 800; fill: #1e1633; }
+  .t-x2 { font-size: 24px; font-weight: 800; fill: #8b2be2; }
+  .t-note { font-size: 22px; font-weight: 600; fill: #5b5170; }
+  .t-clock { font-size: 60px; font-weight: 800; fill: #1e1633; }
+  .t-min { font-size: 20px; font-weight: 600; fill: #5b5170; }
+  .t-chip { font-size: 18px; font-weight: 700; fill: #4a1290; }
+  .t-row { font-size: 22px; font-weight: 600; fill: #1e1633; }
+  .t-brand { font-size: 88px; font-weight: 800; fill: #7a1fd0; letter-spacing: -0.02em; }
+  .t-sub { font-size: 22px; font-weight: 500; fill: #7a1fd0; letter-spacing: 0.42em; }
+  .t-nb { font-size: 13px; font-weight: 700; fill: #4a1290; }
+  .t-tool { font-size: 14px; font-weight: 700; fill: #5a12a8; }
+  .t-slogan { font-size: 32px; font-weight: 700; fill: #1e1633; }
+
+  .demo-overlay {
+    position: absolute;
+    inset: 0;
+    display: none;
+    place-items: center;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 28px;
+  }
+  .demo-overlay.show { display: grid; }
+  .ov-icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: var(--brand);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 10px 32px rgba(74, 18, 144, 0.4);
+    transition: transform 0.15s, background-color 0.15s;
+  }
+  .demo-overlay:hover .ov-icon { background: var(--deep); transform: scale(1.05); }
+  .demo-overlay:focus-visible { outline: 3px solid var(--brand-text); outline-offset: 4px; }
+
+  .demo-bar { display: flex; align-items: flex-start; gap: 24px; margin-top: 24px; }
+  .demo-toggle { flex: none; gap: 10px; min-width: 118px; cursor: pointer; }
+  .stages { list-style: none; margin: 0; padding: 0; flex: 1; display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+  .st-btn {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 0.92rem;
+    line-height: 1.3;
+    color: var(--muted);
+  }
+  .st-btn:hover { color: var(--brand-text); }
+  .st-btn[aria-current="step"] { color: var(--ink); }
+  .st-bar { display: block; height: 4px; margin-bottom: 8px; border-radius: 2px; background: var(--line); overflow: hidden; }
+  .st-fill { display: block; width: 0; height: 100%; background: var(--brand); }
+  button:focus-visible { outline: 3px solid var(--brand-text); outline-offset: 3px; border-radius: 6px; }
+  .demo-cap { margin: 20px 0 0; min-height: 3.6em; max-width: 44rem; }
+  .demo-cap strong { font-family: var(--display); font-weight: 700; margin-right: 0.5em; }
+  .demo-cap span { color: var(--muted); }
+
+  @media (max-width: 760px) {
+    .demo-cap { min-height: 9.4em; }
+    .demo-bar { flex-direction: column; align-items: stretch; gap: 20px; }
+    .demo-toggle { align-self: flex-start; }
+    .stages { grid-template-columns: repeat(3, 1fr); row-gap: 14px; }
+  }
+
+  /* Tutor roles, pricing extras, free pill */
+  .extras {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(40px, 6vw, 80px);
+    align-items: start;
+    margin-top: 56px;
+    padding-top: 48px;
+    border-top: 1px solid var(--line);
+  }
+  .extras-title { font-family: var(--display); font-weight: 800; font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.1; letter-spacing: -0.02em; margin: 0; }
+  .extras-intro { margin: 12px 0 0; color: var(--muted); max-width: 26rem; }
+  .extra-rate { display: flex; align-items: baseline; gap: 12px; }
+  .extra-rate .per { margin-top: 0; }
+  .extra-amt { font-family: var(--display); font-weight: 800; font-size: clamp(2.8rem, 7vw, 4rem); line-height: 0.9; letter-spacing: -0.04em; color: var(--brand-text); }
+  .extra-name { font-family: var(--display); font-weight: 700; font-size: 1.2rem; line-height: 1.25; margin: 16px 0 0; }
+  .extra-text { margin: 6px 0 0; color: var(--muted); max-width: 30rem; }
+  .free {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 0.2em 0.65em;
+    border-radius: 999px;
+    background: var(--brand);
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    vertical-align: middle;
+  }
+
+  /* Sections fade in as they scroll into view */
+  .js .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.9s cubic-bezier(0.22, 0.7, 0.2, 1), transform 0.9s cubic-bezier(0.22, 0.7, 0.2, 1);
+  }
+  .js .reveal.in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .js .reveal { opacity: 1; transform: none; transition: none; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .js .hour .bar { animation-play-state: paused; }
+    .js .hour.in .bar { animation-play-state: running; }
+  }
+
+  /* PROJECT FADE: whole sections (background included) fade in as they scroll into view. Delete this block, the "fade" classes and the script at the end to undo. */
+  .js .fade { opacity: 0; transition: opacity 1.1s ease; }
+  .js .fade > .wrap { transform: translateY(44px); transition: transform 1.1s cubic-bezier(0.22, 0.7, 0.2, 1); }
+  .js .fade.in { opacity: 1; }
+  .js .fade.in > .wrap { transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .js .fade { transition: opacity 0.6s ease; }
+    .js .fade > .wrap { transform: none; transition: none; }
+  }
+
+  /* Everything below the slogan section is shown at 92.5% (header and slogan section stay at 100%).
+     To change the size, edit --z. To undo, delete this block. */
+  @supports (zoom: 1) {
+    :root { --z: 0.925; }
+    main > section:not(.hero),
+    .footer { zoom: var(--z); }
+    main > section:not(.hero) .wrap,
+    .footer {
+      max-width: calc(1120px / var(--z));
+      padding-inline: calc(var(--gutter) / var(--z));
+    }
+  }
+
+  /* Sticky header and mobile menu */
+  :root { --hdr: 84px; }
+  .masthead {
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 50;
+    transition: box-shadow 0.25s ease;
+  }
+  .masthead::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    height: env(safe-area-inset-top, 0px);
+    background: var(--top);
+  }
+  .masthead.is-stuck { box-shadow: 0 1px 0 var(--line), 0 8px 24px rgba(30, 22, 51, 0.1); }
+
+  .menu-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin-right: -8px;
+    padding: 0;
+    border: 0;
+    border-radius: 12px;
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .menu-btn:hover { background: rgba(139, 43, 226, 0.1); }
+  .bars { position: relative; display: block; width: 24px; height: 18px; }
+  .bars i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2.5px;
+    border-radius: 2px;
+    background: currentColor;
+    transition: transform 0.25s ease, top 0.25s ease, opacity 0.2s ease;
+  }
+  .bars i:nth-child(1) { top: 0; }
+  .bars i:nth-child(2) { top: 7.75px; }
+  .bars i:nth-child(3) { top: 15.5px; }
+  .menu-open .bars i:nth-child(1) { top: 7.75px; transform: rotate(45deg); }
+  .menu-open .bars i:nth-child(2) { opacity: 0; }
+  .menu-open .bars i:nth-child(3) { top: 7.75px; transform: rotate(-45deg); }
+
+  .menu-panel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 18px 36px rgba(30, 22, 51, 0.14);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0s linear 0.2s;
+  }
+  .menu-open .menu-panel { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
+  .menu-list { list-style: none; margin: 0 auto; padding: 6px var(--gutter) 20px; max-width: 1120px; }
+  .menu-list a:not(.btn) {
+    display: flex;
+    align-items: center;
+    min-height: 54px;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--line);
+  }
+  .menu-list a:not(.btn):hover { color: var(--brand-text); }
+  .menu-cta { padding-top: 18px; }
+  .menu-cta .btn { width: 100%; }
+
+  @media (max-width: 820px) { .menu-btn { display: inline-flex; } }
+  @media (min-width: 821px) { .menu-panel { display: none; } }
+  @media (max-width: 520px) { .nav .btn-sm { display: none; } }
+  @media (prefers-reduced-motion: reduce) {
+    .bars i, .menu-panel, .masthead { transition: none; }
+  }
+
+  /* Booking form */
+  :root { --field: #b9a5da; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --field: #6b5a94; } }
+  :root[data-theme="dark"] { --field: #6b5a94; }
+
+  .book-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.15fr;
+    grid-template-areas: "intro form" "other form";
+    grid-template-rows: auto 1fr;
+    column-gap: clamp(36px, 6vw, 80px);
+    row-gap: 0;
+    align-items: start;
+  }
+  .book-intro { grid-area: intro; }
+  .other { grid-area: other; }
+  .book-form { grid-area: form; }
+  .cta .book-intro p { margin: 20px 0 0; max-width: 30rem; }
+  .other { margin-top: 44px; padding-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.28); }
+  .other-title { font-family: var(--display); font-weight: 700; font-size: 1.2rem; margin: 0; }
+  .cta .other p { margin: 8px 0 20px; }
+  .other-addr { display: block; margin-top: 14px; font-size: 0.95rem; opacity: 0.85; overflow-wrap: anywhere; }
+
+  .book-form {
+    display: grid;
+    gap: 18px;
+    padding: clamp(24px, 4vw, 36px);
+    background: var(--bg);
+    color: var(--ink);
+    border-radius: 24px;
+    box-shadow: 0 24px 60px rgba(20, 6, 50, 0.28);
+  }
+  .field { display: grid; gap: 6px; min-width: 0; }
+  .field-row { display: grid; grid-template-columns: 1.2fr 1fr; gap: 14px; }
+  .book-form label { font-family: var(--display); font-weight: 600; font-size: 0.95rem; }
+  .opt { font-weight: 500; color: var(--muted); }
+  .book-form input,
+  .book-form select,
+  .book-form textarea {
+    width: 100%;
+    font: inherit;
+    font-size: 1.05rem;
+    color: var(--ink);
+    background: var(--bg);
+    border: 1.5px solid var(--field);
+    border-radius: 12px;
+    padding: 0.8em 1em;
+    transition: border-color 0.15s;
+  }
+  .book-form textarea { min-height: 112px; resize: vertical; line-height: 1.5; }
+  .book-form select {
+    appearance: none;
+    padding-right: 2.6em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1.5 1.5l5.5 5.5 5.5-5.5' fill='none' stroke='%238b2be2' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1em center;
+  }
+  .book-form input::placeholder { color: var(--muted); opacity: 0.75; }
+  .book-form input:focus-visible,
+  .book-form select:focus-visible,
+  .book-form textarea:focus-visible { outline: 3px solid var(--brand-text); outline-offset: 2px; border-color: var(--brand); }
+  .book-form :user-invalid { border-color: #d64545; }
+  .book-send { width: 100%; margin-top: 4px; cursor: pointer; font-size: 1.05rem; padding-block: 1.05em; }
+  .cta .book-form p { max-width: none; opacity: 1; margin: 0; }
+  .form-note { font-size: 0.95rem; color: var(--muted); }
+  .form-alt { font-size: 0.95rem; color: var(--muted); }
+  .linkbtn {
+    padding: 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    font-weight: 600;
+    color: var(--brand-text);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    cursor: pointer;
+  }
+  .form-status { font-size: 0.98rem; font-weight: 600; color: var(--ink); }
+  .form-status:empty { display: none; }
+  .form-status.ok { padding: 12px 14px; border-radius: 12px; background: var(--wash); }
+
+  @media (max-width: 900px) {
+    .book-grid { grid-template-columns: 1fr; grid-template-areas: "intro" "form" "other"; grid-template-rows: auto; row-gap: 36px; }
+    .other { margin-top: 8px; }
+  }
+  @media (max-width: 520px) { .field-row { grid-template-columns: 1fr; } }
+
+  /* FAQ */
+  .faq-wrap { display: grid; grid-template-columns: 1fr 1.7fr; gap: clamp(32px, 6vw, 88px); align-items: start; }
+  .faq-list { border-top: 1px solid var(--line); }
+  .faq-item { border-bottom: 1px solid var(--line); }
+  .faq-item summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 22px 0;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 1.3;
+    color: var(--ink);
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary:hover { color: var(--brand-text); }
+  .faq-item summary:focus-visible { outline: 3px solid var(--brand); outline-offset: 4px; border-radius: 6px; }
+  .faq-icon { flex: none; position: relative; width: 22px; height: 22px; }
+  .faq-icon::before, .faq-icon::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 14px;
+    height: 2px;
+    margin: -1px 0 0 -7px;
+    border-radius: 2px;
+    background: var(--brand-text);
+    transition: transform 0.25s ease;
+  }
+  .faq-icon::after { transform: rotate(90deg); }
+  .faq-item[open] .faq-icon::after { transform: rotate(0deg); }
+  .faq-item p { margin: 0; padding: 0 44px 24px 0; color: var(--muted); max-width: 38rem; }
+  @media (max-width: 820px) { .faq-wrap { grid-template-columns: 1fr; } }
+  @media (prefers-reduced-motion: reduce) { .faq-icon::before, .faq-icon::after { transition: none; } }
+  .includes-title + .rates { margin-top: 18px; }
+  @media (max-width: 820px) { .extras { grid-template-columns: 1fr; gap: 20px; } }
+
+  /* Meet the Team accent; Additional services in the shaded rounded box */
+  .h2 em { font-style: normal; color: var(--brand); }
+  .extras {
+    grid-template-columns: 1.1fr 1fr 1fr;
+    gap: clamp(28px, 4vw, 56px);
+    margin-top: 56px;
+    padding: clamp(28px, 4vw, 44px) clamp(24px, 4vw, 40px);
+    background: var(--wash);
+    border: 0;
+    border-radius: 24px;
+  }
+  @media (max-width: 900px) {
+    .extras { grid-template-columns: 1fr; gap: 28px; }
+    .extras .extra-item + .extra-item { border-top: 1px solid var(--line); padding-top: 28px; }
+  }
+
+  /* Tutor card: divider between the uni-status line and Experienced Tutor / Founder facts */
+  .tutor-facts li + li { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+
+  /* Homework note: small info circle + slightly smaller text */
+  .note { display: flex; align-items: flex-start; gap: 12px; }
+  .note-icon {
+    flex: none;
+    width: 20px; height: 20px;
+    margin-top: 3px;
+    border-radius: 50%;
+    border: 1.5px solid var(--brand);
+    color: var(--brand-text);
+    font-family: var(--display);
+    font-weight: 700;
+    font-style: italic;
+    font-size: 0.72rem;
+    display: flex; align-items: center; justify-content: center;
+    line-height: 1;
+  }
+  .note p { font-size: 0.92rem; }
+
+  /* Policies */
+  .policy-wrap { margin-top: 40px; }
+  .policy-note { color: var(--muted); font-size: 0.95rem; font-style: italic; margin: 0; }
+  .policy-body { padding: 0 44px 24px 0; max-width: 42rem; }
+  .policy-body h4 { font-family: var(--display); font-size: 1rem; margin: 20px 0 6px; }
+  .policy-body h4:first-child { margin-top: 0; }
+  .policy-body p { margin: 0; color: var(--muted); }
+  .policy-body p + h4 { margin-top: 20px; }
+  @media (max-width: 820px) { .policy-wrap { margin-top: 28px; } }
+
+  /* Footer: required business-identity line, kept low-key. Flex-wrap already on .footer,
+     so a full-width child drops onto its own row without disturbing the existing layout. */
+  .legal-id { flex-basis: 100%; font-size: 0.82rem; color: var(--muted); opacity: 0.85; padding-top: 14px; margin-top: 6px; border-top: 1px solid var(--line); }
+  .legal-id .link { color: inherit; text-decoration-color: currentColor; }
+</style>
+</head>
+<body>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="c-ring"></span><span class="c-dot"></span></div>
+
+<div class="masthead" id="top">
+<div class="wrap">
+  <header class="site-header">
+    <a class="mark" href="#top" aria-label="PassFrame tuition, back to top">
+      <span class="mark-name">PassFrame</span>
+      <span class="mark-sub">tuition</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links">
+        <a href="#lessons">Lessons</a>
+        <a href="#tutors">Tutors</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#start">Getting started</a>
+        <a href="#faq">FAQ</a>
+        <a href="#policies">Policies</a>
+      </div>
+      <a class="btn btn-sm btn-outline" href="https://claude.ai/artifact/3bYcd6Agz2wPPBkB8PV3EY" target="_blank" rel="noopener">Portal login</a>
+      <a class="btn btn-sm" href="#book">Book an intro call</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+        <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      </button>
+    </nav>
+  </header>
+</div>
+<nav class="menu-panel" id="menu" aria-label="Sections">
+  <ul class="menu-list">
+    <li><a href="#demo">Watch a lesson</a></li>
+    <li><a href="#lessons">Lessons</a></li>
+    <li><a href="#tutors">Tutors</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#start">Getting started</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#policies">Policies</a></li>
+    <li><a href="https://claude.ai/artifact/3bYcd6Agz2wPPBkB8PV3EY" target="_blank" rel="noopener">Portal login</a></li>
+    <li class="menu-cta"><a class="btn" href="#book">Book an intro call</a></li>
+  </ul>
+</nav>
+</div>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+    <h1 class="hero-title">
+      <span>Building the <em>Framework</em>.</span>
+      <span><em>Passing</em> the 11+.</span>
+    </h1>
+    <p class="strap">Expert 11+ tuition</p>
+    <p class="lede">Live online lessons in Maths, English, Verbal Reasoning (VR) and Non-Verbal Reasoning (NVR), taught by experienced, skilled tutors, including Grammar School and Russell Group alumni.</p>
+    <div class="actions">
+      <a class="btn" href="#book">Book an intro call</a>
+      <a class="link" href="#demo">See how lessons work</a>
+    </div>
+
+    <div class="hour reveal">
+      <h2 class="hour-title">Inside a one-hour lesson</h2>
+      <div class="bar" aria-hidden="true">
+        <div class="seg" data-k="a"></div>
+        <div class="seg" data-k="b"></div>
+        <div class="seg" data-k="c"></div>
+      </div>
+      <div class="ticks" aria-hidden="true"><span>0 min</span><span>60 min</span></div>
+      <ul class="legend">
+        <li class="leg" data-k="a">
+          <h3 class="leg-name">Homework check</h3>
+          <span class="leg-time">5 to 15 minutes</span>
+          <p class="leg-text">We go through the last set of homework and clear up any weak areas.</p>
+        </li>
+        <li class="leg" data-k="b">
+          <h3 class="leg-name">New content</h3>
+          <span class="leg-time">The bulk of the hour</span>
+          <p class="leg-text">Prepared questions on screen, getting steadily harder. Your child works in their notebook while we mark and correct as we go.</p>
+        </li>
+        <li class="leg" data-k="c">
+          <h3 class="leg-name">Feedback and homework</h3>
+          <span class="leg-time">5 minutes</span>
+          <p class="leg-text">The tutor gives feedback and sets homework for next time.</p>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </section>
+
+  <section class="section section-wash fade" id="demo" aria-labelledby="demo-h">
+    <div class="wrap">
+      <h2 class="h2" id="demo-h">Our lessons</h2>
+      <p class="intro">Watch how a PassFrame lesson runs: a live call, questions on screen, a whiteboard when an answer needs explaining, then feedback and homework.</p>
+
+      <div class="demo">
+        <div class="demo-stage">
+          <svg id="scene" class="scene" viewBox="0 0 1000 570" role="img" aria-labelledby="sceneTitle sceneDesc">
+            <title id="sceneTitle">Animated PassFrame lesson</title>
+            <desc id="sceneDesc">A tutor and a student on a live video call. The tutor displays questions while the student works in their notebook, and marks each one with a tick or a cross. When the student struggles with a question, the tutor opens a whiteboard to explain it, and changes the cross to a tick once it is corrected. A clock shows the lesson lasts 60 minutes, the parent joins the call for feedback, and homework is set.</desc>
+            <defs>
+              <clipPath id="clipScreen"><rect x="70" y="40" width="860" height="460" rx="10"/></clipPath>
+              <clipPath id="clipTile"><rect width="400" height="330" rx="18"/></clipPath>
+            </defs>
+
+            <g id="all">
+              <ellipse cx="500" cy="563" rx="440" ry="6" fill="#1e1633" opacity=".12"/>
+              <rect class="lid" x="50" y="20" width="900" height="500" rx="28"/>
+              <path class="lid-base" d="M20 520h960v10a26 26 0 0 1-26 26H46a26 26 0 0 1-26-26z"/>
+              <rect class="lid-notch" x="430" y="520" width="140" height="9" rx="4.5"/>
+              <circle cx="500" cy="30" r="3.5" fill="#8e80b8"/>
+
+              <g clip-path="url(#clipScreen)">
+                <rect x="70" y="40" width="860" height="460" fill="#f3ecfc"/>
+
+                <!-- call top bar -->
+                <rect x="70" y="40" width="860" height="44" fill="#fff"/>
+                <text class="t-top" x="92" y="68">PassFrame lesson</text>
+                <rect x="370" y="49" width="260" height="30" rx="15" fill="#f3ecfc"/>
+                <text id="stageLabel" class="t-pill" x="500" y="70" text-anchor="middle"></text>
+                <circle id="liveDot" cx="872" cy="62" r="5" fill="#1f9d6b"/>
+                <text class="t-live" x="884" y="67">Live</text>
+
+                <!-- call bottom bar -->
+                <rect x="70" y="440" width="860" height="60" fill="#fff"/>
+                <g transform="translate(404 470)"><circle r="20" fill="#f3ecfc"/><g class="ic"><rect x="-4.5" y="-11" width="9" height="15" rx="4.5"/><path d="M-9 -2v2a9 9 0 0 0 18 0v-2M0 9v5"/></g></g>
+                <g transform="translate(468 470)"><circle r="20" fill="#f3ecfc"/><g class="ic"><rect x="-11" y="-7" width="14" height="14" rx="3"/><path d="M3 -2l8-5v14l-8-5z"/></g></g>
+                <g transform="translate(532 470)"><circle id="shareBg" r="20" fill="#f3ecfc"/><g id="shareIc" class="ic"><rect x="-11" y="-9" width="22" height="16" rx="3"/><path d="M0 3v-8M-4 -1l4-4 4 4"/></g></g>
+                <rect x="566" y="450" width="60" height="40" rx="20" fill="#d64545"/>
+                <path d="M584 470h24" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+
+                <!-- tutor tile -->
+                <g id="tut" transform="translate(90 94)">
+                  <rect width="400" height="330" rx="18" fill="#fff" stroke="#e1d4f5" stroke-width="2" vector-effect="non-scaling-stroke"/>
+                  <g clip-path="url(#clipTile)">
+                    <g id="tutFig" transform="translate(200 330)"></g>
+                    <g id="bubble" opacity="0">
+                      <rect x="252" y="22" width="134" height="76" rx="14" fill="#ede0fb"/>
+                      <path d="M268 96L262 118L294 96Z" fill="#ede0fb"/>
+                      <rect id="b0" x="272" y="66" width="18" height="18" rx="4" fill="#b98af2"/>
+                      <rect id="b1" x="296" y="52" width="18" height="32" rx="4" fill="#8b2be2"/>
+                      <rect id="b2" x="320" y="38" width="18" height="46" rx="4" fill="#4a1290"/>
+                      <g id="bTick" transform="translate(364 60) scale(.0001)"><circle r="15" fill="#1f9d6b"/><path d="M-7 0L-2 5.5L8 -5.5" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+                    </g>
+                  </g>
+                  <rect x="14" y="284" width="92" height="32" rx="16" fill="#1e1633" opacity=".78"/>
+                  <text class="t-label" x="60" y="306" text-anchor="middle">Tutor</text>
+                  <g id="nb" opacity="0">
+                    <rect x="258" y="182" width="122" height="26" rx="13" fill="#fff" stroke="#8b2be2" stroke-width="2"/>
+                    <g transform="translate(276 195)" fill="none" stroke="#8b2be2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="-7" y="-8" width="12" height="16" rx="2"/>
+                      <path d="M-3 -3h4M-3 1h4"/>
+                      <g id="nbPen"><path d="M1 6L8 -5"/></g>
+                    </g>
+                    <text class="t-nb" x="292" y="200">Notebook</text>
+                  </g>
+                </g>
+
+                <!-- shared panel -->
+                <g id="panel" transform="translate(510 94)" opacity="0">
+                  <rect width="400" height="330" rx="18" fill="#fff" stroke="#e1d4f5" stroke-width="2" vector-effect="non-scaling-stroke"/>
+                  <g clip-path="url(#clipTile)">
+                    <rect width="400" height="48" fill="#f7f2fd"/>
+                    <text id="pTitle" class="t-title" x="20" y="32">Questions</text>
+                    <g id="tool" opacity="0">
+                      <rect id="toolBg" x="258" y="9" width="126" height="30" rx="15" fill="#fff" stroke="#8b2be2" stroke-width="2"/>
+                      <text id="toolTxt" class="t-tool" x="321" y="29" text-anchor="middle">Whiteboard</text>
+                    </g>
+
+                    <g id="pQ">
+                      <g id="row1" transform="translate(16 62)" opacity="0">
+                        <rect width="368" height="76" rx="14" fill="#fff" stroke="#e5dbf4" stroke-width="2"/>
+                        <rect x="14" y="21" width="46" height="34" rx="17" fill="#8b2be2"/>
+                        <text class="t-badge" x="37" y="44" text-anchor="middle">Q1</text>
+                        <text class="t-q" x="76" y="46">3/4 + 1/8</text>
+                        <g id="res1" transform="translate(334 38) scale(.0001)"><circle r="20" fill="#1f9d6b"/><path d="M-9 0L-3 7L10-7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+                      </g>
+                      <g id="row2" transform="translate(16 150)" opacity="0">
+                        <rect width="368" height="76" rx="14" fill="#fff" stroke="#e5dbf4" stroke-width="2"/>
+                        <rect x="14" y="21" width="46" height="34" rx="17" fill="#8b2be2"/>
+                        <text class="t-badge" x="37" y="44" text-anchor="middle">Q2</text>
+                        <text class="t-q" x="76" y="46">3, 6, 12, ?</text>
+                        <g id="res2x" transform="translate(334 38) scale(.0001)"><circle r="20" fill="#d64545"/><path d="M-8 -8L8 8M8 -8L-8 8" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/></g>
+                        <g id="res2" transform="translate(334 38) scale(.0001)"><circle r="20" fill="#1f9d6b"/><path d="M-9 0L-3 7L10-7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+                      </g>
+                      <g opacity=".6">
+                        <rect x="16" y="238" width="368" height="76" rx="14" fill="none" stroke="#d9cbef" stroke-width="2" stroke-dasharray="6 6"/>
+                        <rect x="30" y="259" width="46" height="34" rx="17" fill="#e5dbf4"/>
+                        <rect x="92" y="262" width="120" height="12" rx="6" fill="#e5dbf4"/>
+                        <rect x="92" y="282" width="80" height="12" rx="6" fill="#e5dbf4"/>
+                      </g>
+                    </g>
+
+                    <g id="pW" opacity="0">
+                      <rect x="16" y="60" width="368" height="254" rx="14" fill="#fff" stroke="#e5dbf4" stroke-width="2"/>
+                      <rect id="wHi" x="298" y="138" width="76" height="62" rx="14" fill="#efe1fc" opacity="0"/>
+                      <text id="n0" class="t-num" x="60" y="186" text-anchor="middle" opacity="0">3</text>
+                      <text id="n1" class="t-num" x="152" y="186" text-anchor="middle" opacity="0">6</text>
+                      <text id="n2" class="t-num" x="244" y="186" text-anchor="middle" opacity="0">12</text>
+                      <text id="nq" class="t-num" x="336" y="186" text-anchor="middle" opacity="0">?</text>
+                      <g id="n24g" transform="translate(336 186) scale(.0001)"><text class="t-num" x="0" y="0" text-anchor="middle" style="fill:#8b2be2">24</text></g>
+                      <g fill="none" stroke="#8b2be2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+                        <path id="a0" d="M74 140Q106 92 138 140" opacity="0"/>
+                        <path id="a1" d="M166 140Q198 92 230 140" opacity="0"/>
+                        <path id="a2" d="M258 140Q290 92 322 140" opacity="0"/>
+                        <path id="c0" d="M136.7 128.1L138 140L127 135.1" opacity="0"/>
+                        <path id="c1" d="M228.7 128.1L230 140L219 135.1" opacity="0"/>
+                        <path id="c2" d="M320.7 128.1L322 140L311 135.1" opacity="0"/>
+                      </g>
+                      <text id="x0" class="t-x2" x="106" y="102" text-anchor="middle" opacity="0">×2</text>
+                      <text id="x1" class="t-x2" x="198" y="102" text-anchor="middle" opacity="0">×2</text>
+                      <text id="x2" class="t-x2" x="290" y="102" text-anchor="middle" opacity="0">×2</text>
+                      <text id="wNote" class="t-note" x="200" y="272" text-anchor="middle" opacity="0">Each number is doubled</text>
+                    </g>
+
+                    <g id="pC" opacity="0">
+                      <g id="cG">
+                        <g transform="rotate(-90 200 172)" fill="none" stroke-width="20">
+                          <circle cx="200" cy="172" r="82" stroke="#ece2fa"/>
+                          <circle cx="200" cy="172" r="82" stroke="#d3aef7" stroke-dasharray="42.9 600" stroke-dashoffset="-472.3"/>
+                          <circle id="cMain" cx="200" cy="172" r="82" stroke="#8b2be2" stroke-dasharray="0 600"/>
+                          <circle id="cLast" cx="200" cy="172" r="82" stroke="#4a1290" stroke-dasharray="0 600" stroke-dashoffset="-472.3"/>
+                        </g>
+                        <text id="cNum" class="t-clock" x="200" y="188" text-anchor="middle">60</text>
+                        <text class="t-min" x="200" y="214" text-anchor="middle">minutes</text>
+                      </g>
+                      <g id="cChip" opacity="0">
+                        <rect x="100" y="282" width="200" height="32" rx="16" fill="#ede0fb"/>
+                        <text class="t-chip" x="200" y="304" text-anchor="middle">Last 5 minutes</text>
+                      </g>
+                    </g>
+
+                    <g id="pH" opacity="0">
+                      <g id="h0" transform="translate(16 62)" opacity="0"><rect width="368" height="60" rx="14" fill="#fff" stroke="#e5dbf4" stroke-width="2"/><rect x="16" y="16" width="28" height="28" rx="8" fill="#fff" stroke="#8b2be2" stroke-width="3"/><text class="t-row" x="62" y="38">Practice questions</text></g>
+                      <g id="h1" transform="translate(16 130)" opacity="0"><rect width="368" height="60" rx="14" fill="#fff" stroke="#e5dbf4" stroke-width="2"/><rect x="16" y="16" width="28" height="28" rx="8" fill="#fff" stroke="#8b2be2" stroke-width="3"/><text class="t-row" x="62" y="38">Vocabulary list</text></g>
+                      <g id="h2" transform="translate(16 198)" opacity="0"><rect width="368" height="60" rx="14" fill="#fff" stroke="#e5dbf4" stroke-width="2"/><rect x="16" y="16" width="28" height="28" rx="8" fill="#fff" stroke="#8b2be2" stroke-width="3"/><text class="t-row" x="62" y="38">Reasoning puzzles</text></g>
+                      <g id="hChip" opacity="0">
+                        <rect x="16" y="274" width="196" height="40" rx="20" fill="#ede0fb"/>
+                        <text class="t-chip" x="114" y="300" text-anchor="middle">Due next lesson</text>
+                      </g>
+                    </g>
+                    <g id="ptr" opacity="0"><path d="M0 0L0 17L4.5 13L7.5 20L10.5 18.6L7.6 12L13 12Z" fill="#1e1633" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/></g>
+                  </g>
+                </g>
+
+                <!-- student tile (parent joins here) -->
+                <g id="stu" transform="translate(510 94)">
+                  <rect width="400" height="330" rx="18" fill="#fff" stroke="#e1d4f5" stroke-width="2" vector-effect="non-scaling-stroke"/>
+                  <g clip-path="url(#clipTile)">
+                    <g id="stuFig" transform="translate(200 330) scale(.85)"></g>
+                    <g id="parFig" transform="translate(480 330) scale(.9)" opacity="0"></g>
+                  </g>
+                  <g id="stuLab"><rect x="14" y="284" width="92" height="32" rx="16" fill="#1e1633" opacity=".78"/><text class="t-label" x="60" y="306" text-anchor="middle">Student</text></g>
+                  <g id="parLab" opacity="0"><rect x="294" y="284" width="92" height="32" rx="16" fill="#1e1633" opacity=".78"/><text class="t-label" x="340" y="306" text-anchor="middle">Parent</text></g>
+                </g>
+
+                <!-- end card -->
+                <g id="endcard" opacity="0">
+                  <rect x="70" y="40" width="860" height="460" fill="#f3ecfc"/>
+                  <text class="t-brand" x="500" y="252" text-anchor="middle">PassFrame</text>
+                  <text class="t-sub" x="511" y="292" text-anchor="middle">tuition</text>
+                  <text class="t-slogan" x="500" y="368" text-anchor="middle">Building the Framework. Passing the 11+.</text>
+                </g>
+              </g>
+            </g>
+          </svg>
+          <button class="demo-overlay show" id="demoOverlay" type="button" aria-label="Play the lesson animation"></button>
+        </div>
+
+        <div class="demo-bar">
+          <button class="btn btn-sm demo-toggle" id="demoToggle" type="button">Play</button>
+          <ol class="stages" id="stages" aria-label="Lesson stages"></ol>
+        </div>
+        <p class="demo-cap"><strong id="capName"></strong><span id="capText"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade" id="lessons">
+    <div class="wrap">
+      <h2 class="h2">Two one-hour lessons a week</h2>
+      <p class="intro">Every lesson is live on Microsoft Teams with screen sharing and an online whiteboard. Each lesson sticks to one subject, and the two below take it in turns from week to week. Questions are prepared in advance, with variety and rising difficulty in each subject.</p>
+
+      <div class="lessons">
+        <article>
+          <h3 class="lesson-name">Lesson 1: Maths or Non-Verbal Reasoning</h3>
+          <ul class="subjects">
+            <li class="subject">
+              <div class="tile">
+                <svg width="38" height="38" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M5 24h10M10 19v10"/><path d="M19 24h10"/><path d="M34 19l10 10M44 19L34 29"/></svg>
+              </div>
+              <div>
+                <h4 class="subject-name">Maths</h4>
+                <p class="subject-text">Fractions, decimals and percentages, ratio, measures, shape and data, plus the multi-step problems the exams use to stretch children.</p>
+              </div>
+            </li>
+            <li class="subject">
+              <div class="tile">
+                <svg width="38" height="38" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="24" r="5.5"/><rect x="19" y="18.5" width="11" height="11" rx="1.5"/><path d="M39 18l5.5 11h-11z"/></svg>
+              </div>
+              <div>
+                <h4 class="subject-name">Non-Verbal Reasoning (NVR)</h4>
+                <p class="subject-text">Solving puzzles with shapes and patterns: sequences, matrices, odd one out, codes, rotation and reflection, and spatial questions such as cube nets and hidden shapes.</p>
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3 class="lesson-name">Lesson 2: English or Verbal Reasoning</h3>
+          <ul class="subjects">
+            <li class="subject">
+              <div class="tile">
+                <svg width="38" height="38" viewBox="0 0 48 48" aria-hidden="true"><text x="24" y="31" text-anchor="middle" font-family="Bricolage Grotesque, system-ui, sans-serif" font-size="20" font-weight="800" fill="currentColor">abc</text></svg>
+              </div>
+              <div>
+                <h4 class="subject-name">English</h4>
+                <p class="subject-text">Comprehension across fiction, non-fiction and poetry, plus spelling, punctuation, grammar and vocabulary. We also practise the writing tasks some schools set.</p>
+              </div>
+            </li>
+            <li class="subject">
+              <div class="tile">
+                <svg width="38" height="38" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 8l14 8v16l-14 8-14-8V16z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><text x="24" y="29.5" text-anchor="middle" font-family="Bricolage Grotesque, system-ui, sans-serif" font-size="17" font-weight="800" fill="currentColor">a</text></svg>
+              </div>
+              <div>
+                <h4 class="subject-name">Verbal Reasoning (VR)</h4>
+                <p class="subject-text">Thinking with words and letters: synonyms and antonyms, word connections, anagrams, hidden words, letter and number codes, sequences and logic puzzles.</p>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="note">
+        <span class="note-icon" aria-hidden="true">i</span>
+        <p>Parents mark homework, and we start each lesson by going through the questions they found difficult. Progress also depends on practice at home, so we recommend at least an hour of study a day between lessons.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-wash fade" id="tutors">
+    <div class="wrap">
+      <h2 class="h2">Meet the <em>Team</em></h2>
+      <p class="intro">Our tutors are experienced and skilled, also including Grammar School and Russell Group university alumni.</p>
+
+      <div class="tutors">
+        <article class="tutor">
+          <div class="avatar"><img src="data:image/jpeg;base64,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" alt="Photo of Timothy" width="84" height="84"></div>
+          <div>
+            <h3 class="tutor-name">Timothy</h3>
+            <p class="tutor-role">Founder</p>
+            <ul class="tutor-facts">
+              <li>LLB Law Graduate</li>
+              <li>Experienced Tutor</li>
+            </ul>
+          </div>
+          <a class="link pill-link" href="https://www.linkedin.com/in/timogbuka/" target="_blank" rel="noopener">LinkedIn</a>
+        </article>
+
+        <article class="tutor">
+          <div class="avatar"><img src="data:image/jpeg;base64,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" alt="Photo of David" width="84" height="84"></div>
+          <div>
+            <h3 class="tutor-name">David</h3>
+            <p class="tutor-role">Founder</p>
+            <ul class="tutor-facts">
+              <li>Computer Science Graduate</li>
+              <li>Trainee Computing Teacher</li>
+            </ul>
+          </div>
+          <a class="link pill-link" href="https://www.linkedin.com/in/david-osimade-81a45a1b9/" target="_blank" rel="noopener">LinkedIn</a>
+        </article>
+
+        <article class="tutor">
+          <div class="avatar"><img src="data:image/jpeg;base64,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" alt="Photo of Sultan" width="84" height="84"></div>
+          <div>
+            <h3 class="tutor-name">Sultan</h3>
+            <span class="role-bubble">Tutor</span>
+            <ul class="tutor-facts">
+              <li>Pharmacology Student</li>
+              <li>Experienced Tutor</li>
+            </ul>
+          </div>
+          <a class="link pill-link" href="https://www.linkedin.com/in/sultan-akingbogun-a3b373299/" target="_blank" rel="noopener">LinkedIn</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade" id="pricing">
+    <div class="wrap">
+      <h2 class="h2">Simple pricing</h2>
+      <div class="price-grid">
+        <div>
+          <h3 class="includes-title">11+ tuition</h3>
+          <div class="rates">
+            <div><span class="amt">£45</span><span class="per">per hour</span></div>
+            <div><span class="amt">£90</span><span class="per">per week</span></div>
+          </div>
+          <p class="price-text">Specifically for 11+ preparation, for Year 4 and Year 5. Two one-hour lessons a week, so the total is <strong>£90 a week</strong>.</p>
+        </div>
+        <div>
+          <h3 class="includes-title">Every family gets</h3>
+          <ul class="includes">
+            <li>A free consultation and introductory call</li>
+            <li>Two live lessons a week on Microsoft Teams</li>
+            <li>Homework and feedback with every lesson</li>
+            <li>Progress tests</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="extras">
+        <div>
+          <h3 class="extras-title">Additional services</h3>
+          <p class="extras-intro">Extra support on top of your two weekly lessons.</p>
+        </div>
+        <div class="extra-item">
+          <div class="extra-rate"><span class="extra-amt">£40</span><span class="per">per hour</span></div>
+          <h4 class="extra-name">Extra homework help and specific focus lessons</h4>
+          <p class="extra-text">If your child is struggling with a particular topic and you would like us to focus on it in an extra lesson, you can arrange one with us over a call, at this rate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-wash fade" id="start">
+    <div class="wrap">
+      <h2 class="h2">Getting started</h2>
+      <ol class="steps">
+        <li>
+          <h3 class="step-name">Consultation and introductory call <span class="free">Free</span></h3>
+          <p class="step-text">We talk about your child, and the exams and schools you are aiming for.</p>
+        </li>
+        <li>
+          <h3 class="step-name">Induction assessment</h3>
+          <p class="step-text">A short set of questions across all four subjects. It is not a test: it shows us where your child is starting, and gives you a taste of how our sessions are run.</p>
+        </li>
+        <li>
+          <h3 class="step-name">Weekly lessons</h3>
+          <p class="step-text">Lessons begin, planned around what the assessment showed.</p>
+        </li>
+        <li>
+          <h3 class="step-name">Monthly tests</h3>
+          <p class="step-text">Regular checks show progress and where to focus next.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="cta fade" id="book">
+    <div class="wrap">
+      <div class="book-grid">
+        <div class="book-intro">
+          <h2 class="h2">Book a free introductory call</h2>
+          <p>Tell us a little about your child and we will get in touch to arrange a free consultation and introductory call.</p>
+        </div>
+
+        <div class="other">
+          <h3 class="other-title">Other enquiries</h3>
+          <p>Have a different question? Email us directly.</p>
+          <a class="btn btn-light js-contact" href="mailto:passframefd@outlook.com?subject=PassFrame%20enquiry">Contact us</a>
+          <span class="other-addr js-addr">passframefd@outlook.com</span>
+        </div>
+
+        <form class="book-form" id="bookForm" autocomplete="on">
+          <div class="field">
+            <label for="f-parent">Parent's name</label>
+            <input id="f-parent" name="parent" type="text" autocomplete="name" maxlength="100" required>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="f-child">Child's name</label>
+              <input id="f-child" name="child" type="text" autocomplete="off" maxlength="100" required>
+            </div>
+            <div class="field">
+              <label for="f-year">Year group</label>
+              <select id="f-year" name="year" required>
+                <option value="" selected disabled>Select</option>
+                <option>Year 3</option>
+                <option>Year 4</option>
+                <option>Year 5</option>
+                <option>Year 6</option>
+                <option>Other (tell us in your message)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-phone">Contact number</label>
+            <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="25" pattern="[0-9+\(\)\s\-]{7,25}" title="Please enter a phone number, for example 07123 456789" required>
+          </div>
+
+          <div class="field">
+            <label for="f-when">When can we contact you? <span class="opt">(optional)</span></label>
+            <input id="f-when" name="when" type="text" maxlength="150" placeholder="e.g. weekday evenings after 6pm">
+          </div>
+
+          <div class="field">
+            <label for="f-msg">Additional message <span class="opt">(optional)</span></label>
+            <textarea id="f-msg" name="message" rows="4" maxlength="1200"></textarea>
+          </div>
+
+          <button class="btn book-send" type="submit">Send request</button>
+          <p class="form-note">This opens your email app with everything filled in. Just press send and it reaches us.</p>
+          <p class="form-alt">Email app not opening? <button class="linkbtn" type="button" data-act="gmail">Open in Gmail</button> or <button class="linkbtn" type="button" data-act="copy">copy the details</button>.</p>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade" id="faq">
+    <div class="wrap">
+      <div class="faq-wrap">
+        <div>
+          <h2 class="h2">Frequently asked questions</h2>
+          <p class="intro">Anything not covered here? <a class="link" href="mailto:passframefd@outlook.com?subject=PassFrame%20enquiry">Email us</a>.</p>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>What age/year group do you teach?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>11+ tuition is for Year 4 and Year 5.</p>
+          </details>
+          <details class="faq-item">
+            <summary>When should my child start 11+ preparation?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>As early as possible. Ideally in Year 4, where we can build foundational knowledge and cover the entire syllabus in good time.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How many students are in each session?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>All lessons are 1 to 1, on a recurring weekly day and time with your child's tutor.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Are lessons online or in person?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>Solely online, via Microsoft Teams.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How much homework is given?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>We recommend 45 minutes per day outside of lessons.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What happens if my child misses a lesson?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>Contact your tutor to arrange a reschedule. This must be done 24 hours in advance of the lesson, as no-shows cannot be compensated.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do parents receive progress updates?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>We talk with parents at the end of lessons, and share assessment test results and feedback.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What if I need to change days?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>Send a new recurring request through the parent portal for the day and time you'd like — your tutor accepts or declines it there.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade" id="policies">
+    <div class="wrap">
+      <h2 class="h2">Policies</h2>
+      <p class="intro">The details behind how a PassFrame place works.</p>
+      <div class="faq-wrap policy-wrap">
+        <div>
+          <p class="policy-note">This is a general summary of how we work, not a substitute for formal legal advice.</p>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Parent terms &amp; conditions<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="policy-body">
+              <h4>Payment</h4>
+              <p>Fees are £45 per hour (£90 a week) for 11+ tuition. Fees are due weekly, in advance of that week's lessons, by bank transfer unless we agree otherwise. Extra homework help or focus lessons are charged separately, at £40 per hour.</p>
+              <h4>Your right to cancel (14 days)</h4>
+              <p>Under the Consumer Contracts Regulations 2013, once you confirm paid lessons with us, you have the right to cancel that agreement within 14 days, without giving a reason, for a full refund of any lessons not yet delivered. If you would like lessons to begin within that 14-day period, we will only do so once you have told us that is what you want, and you accept that you may lose the right to cancel for any lessons already delivered by the time you cancel. To cancel, just email us and we will confirm and refund you within 14 days. Booking a free introductory call does not start this 14-day period, as no paid agreement is made at that stage.</p>
+              <h4>Rescheduling and missed lessons</h4>
+              <p>Separately from your right to cancel, we ask for at least 24 hours' notice to reschedule a lesson. Lessons cancelled with less notice, or missed without notice, cannot be refunded or rescheduled. If we ever need to cancel or move a lesson, we will let you know as early as we can and offer an alternative time.</p>
+              <h4>Lessons</h4>
+              <p>Lessons take place online via Microsoft Teams, using video, screen share and a shared whiteboard. Homework is set after most lessons, marked by parents at home, and reviewed at the start of the next lesson. Progress is tracked through regular monthly tests.</p>
+              <h4>Responsibilities</h4>
+              <p>Parents are responsible for making sure their child has a working device, a stable internet connection and a quiet space for each lesson, and for supporting the recommended homework routine at home. PassFrame is responsible for delivering the agreed lessons, tracking progress, and letting you know early if anything needs to change.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Privacy notice<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="policy-body">
+              <p>The data controller is PassFrame Tuition, founded and run by Timothy and David. For anything to do with your data, contact us at <a class="link js-contact" href="mailto:passframefd@outlook.com?subject=Data%20request">passframefd@outlook.com</a>.</p>
+              <p>We collect only the information we need to arrange and deliver lessons: parent and child names, year group, contact details, and notes on progress and homework.</p>
+              <p>We use this to run lessons, communicate with parents, and track a child's progress. We do not sell it or share it with third parties, other than the services we use to deliver tutoring itself, such as Microsoft Teams, and we never use it for marketing without asking first.</p>
+              <p>We keep active account and lesson records for as long as your child is enrolled, and for up to 12 months after your last lesson with us, in case you return or need a reference. After that, we delete them, unless we're required by law to keep something longer (for example, financial records for tax purposes).</p>
+              <p>As a parent, you can ask to see the information we hold on your family, ask us to correct it, or ask us to delete it earlier than the periods above, at any time, by emailing us. You can also complain to the UK Information Commissioner's Office (ico.org.uk) if you believe we've mishandled your data.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <a class="mark" href="#top" aria-label="PassFrame tuition, back to top">
+    <span class="mark-name">PassFrame</span>
+    <span class="mark-sub">tuition</span>
+  </a>
+  <p>Building the Framework, Passing the 11+.</p>
+  <p><a class="link" href="https://claude.ai/artifact/3bYcd6Agz2wPPBkB8PV3EY" target="_blank" rel="noopener">Staff &amp; parent portal</a> <span aria-hidden="true">·</span> passframe.org.uk &copy; 2026 PassFrame Tuition</p>
+</footer>
+
+<script>
+  (function () {
+    var mq = window.matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)');
+    if (!mq.matches) return;
+    var el = document.getElementById('cursor');
+    var dot = el.querySelector('.c-dot');
+    var ring = el.querySelector('.c-ring');
+    var x = 0, y = 0, rx = null, ry = null, raf = null;
+
+    function loop() {
+      rx += (x - rx) * 0.55;
+      ry += (y - ry) * 0.55;
+      ring.style.transform = 'translate3d(' + rx + 'px,' + ry + 'px,0)';
+      if (Math.abs(x - rx) > 0.1 || Math.abs(y - ry) > 0.1) {
+        raf = requestAnimationFrame(loop);
+      } else {
+        raf = null;
+      }
+    }
+
+    document.addEventListener('mousemove', function (e) {
+      x = e.clientX;
+      y = e.clientY;
+      if (rx === null) { rx = x; ry = y; }
+      dot.style.transform = 'translate3d(' + x + 'px,' + y + 'px,0)';
+      el.classList.add('on');
+      var t = e.target;
+      if (t && t.closest) {
+        el.classList.toggle('hot', !!t.closest('a, button, summary'));
+        el.classList.toggle('band', !!t.closest('.cta'));
+      }
+      if (!raf) raf = requestAnimationFrame(loop);
+    }, { passive: true });
+
+    document.documentElement.addEventListener('mouseleave', function () {
+      el.classList.remove('on');
+    });
+  })();
+</script>
+<script>
+  (function () {
+    var $ = function (id) { return document.getElementById(id); };
+    var scene = $('scene');
+    if (!scene) return;
+
+    var T = 32.5;
+    var POSTER = 14.7;
+    var CIRC = 2 * Math.PI * 82;
+
+    var STAGES = [
+      { t: 0,    short: 'Call',       label: 'Live video call', text: 'Every lesson is a live video call, so your child learns face to face with their tutor.' },
+      { t: 3.6,  short: 'Questions',  label: 'Questions',       text: 'Questions are displayed on screen while your child works through them in their notebook or workbook. The tutor marks as they go, with a tick or a cross.' },
+      { t: 10.6, short: 'Whiteboard', label: 'Whiteboard',      text: 'When your child struggles with a question, the tutor opens the whiteboard and talks it through. Once your child has corrected it, the tutor changes the cross to a tick.' },
+      { t: 18.4, short: '60 minutes', label: '60-minute lesson', text: 'Every lesson lasts a full 60 minutes. The last five minutes are kept for feedback and homework.' },
+      { t: 22.4, short: 'Feedback',   label: 'Feedback',        text: 'Parent and student join the tutor for feedback on how the lesson went.' },
+      { t: 26.6, short: 'Homework',   label: 'Homework',        text: 'Homework is set, ready for the next lesson.' }
+    ];
+
+    var TUTOR_TALK = [[0.9, 2.5], [4.9, 6.3], [7.9, 9.2], [10.4, 17.0], [23.5, 26.4], [26.9, 29.6]];
+    var STUDENT_TALK = [[2.6, 3.5]];
+    var NOTEBOOK = [[5.4, 7.2], [8.6, 10.1], [17.3, 18.1]];
+
+    function clamp(v, a, b) { return Math.min(b, Math.max(a, v)); }
+    function seg(t, a, b) { return clamp((t - a) / (b - a), 0, 1); }
+    function lerp(a, b, p) { return a + (b - a) * p; }
+    function easeOut(p) { return 1 - Math.pow(1 - p, 3); }
+    function easeInOut(p) { return p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2; }
+    function back(p) { var c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(p - 1, 3) + c1 * Math.pow(p - 1, 2); }
+    function f(n) { return Math.round(n * 100) / 100; }
+    function op(el, v) { el.setAttribute('opacity', f(clamp(v, 0, 1))); }
+    function sc(v) { return f(Math.max(0.0001, v)); }
+    function talk(t, arr) {
+      var m = 0;
+      for (var i = 0; i < arr.length; i++) {
+        m = Math.max(m, Math.min(clamp((t - arr[i][0]) / 0.15, 0, 1), clamp((arr[i][1] - t) / 0.15, 0, 1)));
+      }
+      return m;
+    }
+
+    /* Stick figures: a circle head and a half-oval body, drawn around x = 0 with the base at y = 0 */
+    function figure(k, color) {
+      return '<path d="M-116 0A116 104 0 0 1 116 0Z" fill="' + color + '"/>' +
+        '<g id="' + k + 'H">' +
+          '<circle cx="0" cy="-180" r="46" fill="' + color + '"/>' +
+          '<ellipse id="' + k + 'EL" cx="-16" cy="-188" rx="5" ry="5" fill="#fff"/>' +
+          '<ellipse id="' + k + 'ER" cx="16" cy="-188" rx="5" ry="5" fill="#fff"/>' +
+          '<rect id="' + k + 'M" x="-12" y="-166" width="24" height="4" rx="2" fill="#fff"/>' +
+        '</g>' +
+        '<g id="' + k + 'W" fill="none" stroke="' + color + '" stroke-width="5" stroke-linecap="round">' +
+          '<path d="M64 -200q12 14 0 28"/><path d="M78 -212q18 26 0 52"/><path d="M92 -224q24 38 0 76"/>' +
+        '</g>';
+    }
+    $('tutFig').innerHTML = figure('figT', '#8b2be2');
+    $('stuFig').innerHTML = figure('figS', '#a56cf0');
+    $('parFig').innerHTML = figure('figP', '#4a1290');
+    function parts(k) {
+      return { H: $(k + 'H'), EL: $(k + 'EL'), ER: $(k + 'ER'), M: $(k + 'M'), W: $(k + 'W').children };
+    }
+    var FIG = { t: parts('figT'), s: parts('figS'), p: parts('figP') };
+
+    function animFig(o, t, m, seed) {
+      var open = 0.5 + 0.5 * Math.sin(t * 15 + seed);
+      var h = 4 + 13 * m * open;
+      o.M.setAttribute('height', f(h));
+      o.M.setAttribute('rx', f(Math.min(h / 2, 7)));
+      o.H.setAttribute('transform', 'translate(0 ' + f(m * Math.sin(t * 9 + seed) * 1.6 + Math.sin(t * 1.7 + seed) * 0.7) + ')');
+      var ph = (t + seed) % 3.6, ry = 5;
+      if (ph < 0.14) ry = 0.8 + 4.2 * Math.abs(ph - 0.07) / 0.07;
+      o.EL.setAttribute('ry', f(ry));
+      o.ER.setAttribute('ry', f(ry));
+      for (var i = 0; i < o.W.length; i++) {
+        op(o.W[i], m * clamp(0.5 + 0.5 * Math.sin(t * 8 - i * 1.3 + seed), 0, 1));
+      }
+    }
+
+    /* Element handles */
+    var all = $('all'), liveDot = $('liveDot'), stageLabel = $('stageLabel');
+    var stu = $('stu'), stuFig = $('stuFig'), parFig = $('parFig'), stuLab = $('stuLab'), parLab = $('parLab');
+    var panel = $('panel'), pTitle = $('pTitle'), pQ = $('pQ'), pW = $('pW'), pC = $('pC'), pH = $('pH');
+    var row1 = $('row1'), row2 = $('row2');
+    var res1 = $('res1'), res2x = $('res2x'), res2 = $('res2');
+    var N = [$('n0'), $('n1'), $('n2')], nq = $('nq'), n24g = $('n24g'), wHi = $('wHi'), wNote = $('wNote');
+    var A = [$('a0'), $('a1'), $('a2')], C = [$('c0'), $('c1'), $('c2')], X = [$('x0'), $('x1'), $('x2')];
+    var cMain = $('cMain'), cLast = $('cLast'), cNum = $('cNum'), cG = $('cG'), cChip = $('cChip');
+    var H = [$('h0'), $('h1'), $('h2')], hChip = $('hChip');
+    var bubble = $('bubble'), B = [$('b0'), $('b1'), $('b2')], bTick = $('bTick');
+    var nb = $('nb'), nbPen = $('nbPen');
+    var tool = $('tool'), toolBg = $('toolBg'), toolTxt = $('toolTxt'), ptr = $('ptr');
+    var endcard = $('endcard'), shareBg = $('shareBg'), shareIc = $('shareIc');
+
+    A.forEach(function (p) {
+      var L = typeof p.getTotalLength === 'function' ? p.getTotalLength() : 90;
+      p._L = L;
+      p.setAttribute('stroke-dasharray', f(L) + ' ' + f(L * 2));
+    });
+
+    var lastTitle = '';
+    var A_START = [11.9, 12.7, 13.5];
+    var BAR_H = [18, 32, 46];
+
+    function render(t) {
+      var intro = easeOut(seg(t, 0, 0.6));
+      all.setAttribute('transform', 'translate(500 285) scale(' + f(0.95 + 0.05 * intro) + ') translate(-500 -285)');
+      op(all, intro);
+      op(liveDot, 0.6 + 0.4 * Math.sin(t * 4));
+
+      /* Student tile: full size on the call, picture-in-picture while the panel is shared */
+      var p1 = easeInOut(seg(t, 3.6, 4.5));
+      var p2 = easeInOut(seg(t, 22.4, 23.3));
+      var p3 = easeInOut(seg(t, 26.6, 27.4));
+      var q = p1 - p2 + p3;
+      stu.setAttribute('transform', 'translate(' + f(lerp(510, 348, q)) + ' ' + f(lerp(94, 304, q)) + ') scale(' + f(lerp(1, 0.32, q)) + ')');
+      var lab = clamp(1 - q * 1.8, 0, 1);
+      op(stuLab, lab);
+
+      /* Parent joins for feedback */
+      var pin = easeOut(seg(t, 23.2, 24.1));
+      parFig.setAttribute('transform', 'translate(' + f(lerp(480, 296, pin)) + ' 330) scale(.9)');
+      stuFig.setAttribute('transform', 'translate(' + f(lerp(200, 100, pin)) + ' 330) scale(' + f(lerp(0.85, 0.8, pin)) + ')');
+      op(parFig, pin * 3);
+      op(parLab, pin * lab);
+
+      animFig(FIG.t, t, talk(t, TUTOR_TALK), 0);
+      animFig(FIG.s, t, talk(t, STUDENT_TALK), 1.3);
+      animFig(FIG.p, t, 0, 2.4);
+
+      /* Shared panel and its four contents */
+      var pv = Math.max(Math.min(seg(t, 4.0, 4.6), 1 - seg(t, 22.3, 22.9)), seg(t, 27.0, 27.6));
+      op(panel, pv);
+      panel.setAttribute('transform', 'translate(' + f(510 + (1 - pv) * 30) + ' 94)');
+      var qv = Math.max(Math.min(seg(t, 4.4, 4.9), 1 - seg(t, 11.1, 11.6)), Math.min(seg(t, 17.2, 17.7), 1 - seg(t, 18.6, 19.1)));
+      var wv = Math.min(seg(t, 11.1, 11.7), 1 - seg(t, 16.9, 17.4));
+      var cv = Math.min(seg(t, 18.6, 19.1), 1 - seg(t, 22.2, 22.6));
+      var hv = seg(t, 27.2, 27.8);
+      op(pQ, qv); op(pW, wv); op(pC, cv); op(pH, hv);
+      var title = wv > 0.5 ? 'Whiteboard' : cv > 0.5 ? '60-minute lesson' : hv > 0.5 ? 'Homework' : 'Questions';
+      if (title !== lastTitle) { pTitle.textContent = title; lastTitle = title; }
+      var on = pv > 0.5;
+      shareBg.setAttribute('fill', on ? '#8b2be2' : '#f3ecfc');
+      shareIc.style.stroke = on ? '#fff' : '#5b5170';
+
+      /* The tutor moves the pointer to the tool button to open the whiteboard, and again to go back to the questions */
+      op(tool, Math.max(qv, wv));
+      var wbLabel = wv > 0.5 ? 'Questions' : 'Whiteboard';
+      if (toolTxt.textContent !== wbLabel) toolTxt.textContent = wbLabel;
+      var press = (t >= 10.85 && t < 11.05) || (t >= 16.7 && t < 16.9);
+      toolBg.setAttribute('fill', press ? '#8b2be2' : '#ffffff');
+      toolTxt.style.fill = press ? '#ffffff' : '#5a12a8';
+      var first = t < 13.5;
+      var pm = first ? easeInOut(seg(t, 10.35, 10.85)) : easeInOut(seg(t, 16.2, 16.7));
+      var px = lerp(first ? 296 : 290, 318, pm), py = lerp(first ? 165 : 180, 26, pm);
+      ptr.setAttribute('transform', 'translate(' + f(px) + ' ' + f(py) + ') scale(' + (press ? 1.3 : 1.55) + ')');
+      op(ptr, Math.max(Math.min(seg(t, 10.3, 10.5), 1 - seg(t, 11.2, 11.5)), Math.min(seg(t, 16.15, 16.35), 1 - seg(t, 17.0, 17.3))));
+
+      /* Questions with ticks and crosses */
+      var r1 = easeOut(seg(t, 4.9, 5.4)), r2 = easeOut(seg(t, 8.0, 8.5));
+      row1.setAttribute('transform', 'translate(16 ' + f(62 + (1 - r1) * 14) + ')'); op(row1, r1);
+      row2.setAttribute('transform', 'translate(16 ' + f(150 + (1 - r2) * 14) + ')'); op(row2, r2);
+      res1.setAttribute('transform', 'translate(334 38) scale(' + sc(back(seg(t, 7.3, 7.7))) + ')');
+      var crossS = t < 17.9 ? back(seg(t, 10.2, 10.6)) : 1 - easeInOut(seg(t, 17.9, 18.15));
+      res2x.setAttribute('transform', 'translate(334 38) scale(' + sc(crossS) + ')');
+      res2.setAttribute('transform', 'translate(334 38) scale(' + sc(back(seg(t, 18.15, 18.55))) + ')');
+
+      /* Student working in their notebook while the questions are displayed */
+      var nbv = talk(t, NOTEBOOK);
+      op(nb, nbv);
+      nbPen.setAttribute('transform', 'rotate(' + f(Math.sin(t * 14) * 12 * nbv) + ' 1 6)');
+
+      /* Whiteboard */
+      op(N[0], seg(t, 11.6, 11.9));
+      op(N[1], seg(t, 12.3, 12.6));
+      op(N[2], seg(t, 13.1, 13.4));
+      op(nq, seg(t, 13.9, 14.2) * (1 - seg(t, 15.0, 15.2)));
+      for (var i = 0; i < 3; i++) {
+        var pd = seg(t, A_START[i], A_START[i] + 0.5);
+        A[i].setAttribute('stroke-dashoffset', f((1 - pd) * A[i]._L));
+        op(A[i], pd > 0 ? 1 : 0);
+        op(C[i], seg(t, A_START[i] + 0.45, A_START[i] + 0.6));
+        op(X[i], seg(t, A_START[i] + 0.4, A_START[i] + 0.7));
+      }
+      var pa = back(seg(t, 15.0, 15.45));
+      n24g.setAttribute('transform', 'translate(336 186) scale(' + sc(pa) + ')');
+      op(wHi, seg(t, 15.0, 15.4));
+      op(wNote, seg(t, 15.7, 16.1));
+
+      /* 60-minute lesson: the ring fills once to show the full hour, with the last five minutes picked out in a darker purple */
+      var cp = easeInOut(seg(t, 19.0, 22.0)), pct = cp * 100;
+      cMain.setAttribute('stroke-dasharray', f(Math.min(pct, 91.67) / 100 * CIRC) + ' 600');
+      cLast.setAttribute('stroke-dasharray', f(Math.max(0, pct - 91.67) / 100 * CIRC) + ' 600');
+      var pulse = seg(t, 22.0, 22.4);
+      cG.setAttribute('transform', 'translate(200 172) scale(' + f(1 + 0.05 * Math.sin(pulse * Math.PI)) + ') translate(-200 -172)');
+      op(cChip, (pct - 88) / 4);
+
+      /* Feedback bubble above the tutor */
+      var bp = back(seg(t, 23.6, 24.1)) * (1 - seg(t, 26.2, 26.6));
+      op(bubble, bp);
+      bubble.setAttribute('transform', 'translate(268 118) scale(' + sc(bp) + ') translate(-268 -118)');
+      for (var j = 0; j < 3; j++) {
+        var bh = BAR_H[j] * easeOut(seg(t, 24.0 + j * 0.2, 24.6 + j * 0.2));
+        B[j].setAttribute('y', f(84 - bh));
+        B[j].setAttribute('height', f(Math.max(0, bh)));
+      }
+      bTick.setAttribute('transform', 'translate(364 60) scale(' + sc(back(seg(t, 24.9, 25.3))) + ')');
+
+      /* Homework */
+      for (var k = 0; k < 3; k++) {
+        var hp = easeOut(seg(t, 27.8 + k * 0.45, 28.3 + k * 0.45));
+        H[k].setAttribute('transform', 'translate(16 ' + f(62 + k * 68 + (1 - hp) * 12) + ')');
+        op(H[k], hp);
+      }
+      op(hChip, seg(t, 29.2, 29.6));
+
+      op(endcard, seg(t, 30.0, 30.8));
+    }
+
+    /* Controls, captions and stage progress */
+    var capName = $('capName'), capText = $('capText'), ol = $('stages');
+    var toggle = $('demoToggle'), overlay = $('demoOverlay');
+    var fills = [], btns = [];
+    STAGES.forEach(function (s, i) {
+      var li = document.createElement('li');
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'st-btn';
+      b.setAttribute('aria-label', 'Jump to ' + s.short);
+      b.innerHTML = '<span class="st-bar"><span class="st-fill"></span></span>' + s.short;
+      b.addEventListener('click', function () { seek(i); });
+      li.appendChild(b);
+      ol.appendChild(li);
+      fills.push(b.querySelector('.st-fill'));
+      btns.push(b);
+    });
+
+    var curStage = -1;
+    function ui(t) {
+      var idx = 0;
+      for (var i = 0; i < STAGES.length; i++) { if (t >= STAGES[i].t) idx = i; }
+      if (idx !== curStage) {
+        curStage = idx;
+        capName.textContent = STAGES[idx].label;
+        capText.textContent = STAGES[idx].text;
+        stageLabel.textContent = STAGES[idx].label;
+        for (var j = 0; j < btns.length; j++) {
+          if (j === idx) btns[j].setAttribute('aria-current', 'step'); else btns[j].removeAttribute('aria-current');
+        }
+      }
+      op(stageLabel, seg(t, STAGES[idx].t, STAGES[idx].t + 0.3));
+      for (var k = 0; k < fills.length; k++) {
+        fills[k].style.width = f(seg(t, STAGES[k].t, k < STAGES.length - 1 ? STAGES[k + 1].t : T) * 100) + '%';
+      }
+    }
+
+    function icon(name, size) {
+      var s = '<svg width="' + size + '" height="' + size + '" viewBox="0 0 14 14" aria-hidden="true">';
+      if (name === 'play') return s + '<path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg>';
+      if (name === 'pause') return s + '<rect x="2.5" y="1.5" width="3" height="11" rx="1" fill="currentColor"/><rect x="8.5" y="1.5" width="3" height="11" rx="1" fill="currentColor"/></svg>';
+      return s + '<path d="M2.5 7a4.5 4.5 0 1 0 1.4-3.2M2 1.5v3h3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    }
+
+    var mode = 'poster', t = POSTER, raf = 0, last = null;
+    var autoTried = false, pausedByScroll = false;
+    var reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+
+    function setMode(m) {
+      mode = m;
+      var ic = m === 'playing' ? 'pause' : (m === 'ended' ? 'replay' : 'play');
+      var name = m === 'playing' ? 'Pause' : (m === 'ended' ? 'Replay' : 'Play');
+      toggle.innerHTML = icon(ic, 14) + '<span>' + name + '</span>';
+      overlay.classList.toggle('show', m === 'poster');
+      overlay.innerHTML = '<span class="ov-icon">' + icon(ic, 36) + '</span>';
+      overlay.setAttribute('aria-label', m === 'ended' ? 'Replay the lesson animation' : 'Play the lesson animation');
+    }
+
+    function frame(ts) {
+      if (mode !== 'playing') return;
+      if (last === null) last = ts;
+      var dt = (ts - last) / 1000;
+      last = ts;
+      t += Math.min(dt, 0.1);
+      if (t >= T) {
+        t = T;
+        render(t); ui(t);
+        setMode('ended');
+        return;
+      }
+      render(t); ui(t);
+      raf = requestAnimationFrame(frame);
+    }
+    function play() { setMode('playing'); last = null; cancelAnimationFrame(raf); raf = requestAnimationFrame(frame); }
+    function pause() { cancelAnimationFrame(raf); setMode('paused'); }
+    function start(from) { t = from; play(); }
+    function seek(i) { t = STAGES[i].t; render(t); ui(t); if (mode !== 'playing') play(); }
+
+    function onToggle() {
+      if (mode === 'playing') pause();
+      else if (mode === 'poster' || mode === 'ended') start(0);
+      else play();
+    }
+    toggle.addEventListener('click', onToggle);
+    overlay.addEventListener('click', onToggle);
+
+    render(t); ui(t); setMode('poster');
+
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        var vis = entries[0].isIntersecting;
+        if (vis) {
+          if (!autoTried && !reduce && mode === 'poster') { autoTried = true; start(0); }
+          else if (pausedByScroll) { pausedByScroll = false; play(); }
+        } else if (mode === 'playing') {
+          pausedByScroll = true; pause();
+        }
+      }, { threshold: 0.45 }).observe(scene);
+    }
+  })();
+</script>
+<script>
+  /* PROJECT FADE: reveals sections as they scroll into view */
+  (function () {
+    var els = [].slice.call(document.querySelectorAll('.reveal, .fade'));
+    function show(e) { e.classList.add('in'); }
+    if (!('IntersectionObserver' in window)) { els.forEach(show); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { show(en.target); io.unobserve(en.target); } });
+    }, { threshold: 0, rootMargin: '0px 0px -18% 0px' });
+    els.forEach(function (e) { io.observe(e); });
+    function check() {
+      var h = window.innerHeight || document.documentElement.clientHeight;
+      els.forEach(function (e) {
+        if (!e.classList.contains('in') && e.getBoundingClientRect().top < h * 0.82) show(e);
+      });
+    }
+    window.addEventListener('scroll', check, { passive: true });
+    window.addEventListener('resize', check);
+    check();
+  })();
+</script>
+<script>
+  /* Sticky header, mobile menu, and logo scrolls to the start */
+  (function () {
+    var head = document.getElementById('top');
+    var btn = document.getElementById('menuBtn');
+    var panel = document.getElementById('menu');
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function setOpen(open) {
+      head.classList.toggle('menu-open', open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    }
+    btn.addEventListener('click', function () { setOpen(!head.classList.contains('menu-open')); });
+    panel.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+    document.addEventListener('click', function (e) { if (!head.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 820) setOpen(false); });
+    function stuck() { head.classList.toggle('is-stuck', (window.pageYOffset || document.documentElement.scrollTop) > 4); }
+    window.addEventListener('scroll', stuck, { passive: true });
+    stuck();
+    [].forEach.call(document.querySelectorAll('.mark'), function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        setOpen(false);
+        window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+      });
+    });
+  })();
+</script>
+<script>
+  /* Booking form: builds an email to the PassFrame inbox from the answers, opened in the visitor's own email app */
+  (function () {
+    var EMAIL = 'passframefd@outlook.com'; /* the one contact email used across the site (also in the two static fallbacks above) */
+    var form = document.getElementById('bookForm');
+    var statusEl = document.getElementById('formStatus');
+    if (!form) return;
+
+    [].forEach.call(document.querySelectorAll('.js-contact'), function (a) {
+      a.href = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent('PassFrame enquiry');
+    });
+    [].forEach.call(document.querySelectorAll('.js-addr'), function (n) { n.textContent = EMAIL; });
+
+    function val(name) { return form.elements[name].value.replace(/\s+/g, ' ').trim(); }
+
+    function compose() {
+      var when = val('when') || 'Not specified';
+      var message = form.elements.message.value.trim() || 'None';
+      var subject = 'Introductory call request: ' + val('parent');
+      var body = [
+        'Introductory call request',
+        '',
+        "Parent's name: " + val('parent'),
+        "Child's name: " + val('child'),
+        'Year group: ' + val('year'),
+        'Contact number: ' + val('phone'),
+        'When to contact: ' + when,
+        '',
+        'Additional message:',
+        message,
+        '',
+        'Sent from the PassFrame website'
+      ].join('\r\n');
+      return { subject: subject, body: body };
+    }
+
+    function say(text, ok) {
+      statusEl.textContent = text;
+      statusEl.className = 'form-status' + (ok ? ' ok' : '');
+    }
+
+    function legacyCopy(text) {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      var ok = false;
+      try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+      document.body.removeChild(ta);
+      return ok;
+    }
+
+    function copy(text) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(text).then(function () { return true; }, function () { return legacyCopy(text); });
+      }
+      return Promise.resolve(legacyCopy(text));
+    }
+
+    function act(kind) {
+      if (!form.reportValidity()) { say('', false); return; }
+      var m = compose();
+      if (kind === 'mail') {
+        var a = document.createElement('a');
+        a.href = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(m.body);
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        say('Your email app should now be open with everything filled in. Just press send. Nothing happened? Use Gmail or copy the details above.', true);
+      } else if (kind === 'gmail') {
+        var url = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(EMAIL) + '&su=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(m.body);
+        var w = window.open(url, '_blank', 'noopener');
+        say(w ? 'Gmail should now be open with everything filled in. Just press send.' : 'Your browser blocked the new tab. Please use "copy the details" instead.', !!w);
+      } else {
+        copy('To: ' + EMAIL + '\r\nSubject: ' + m.subject + '\r\n\r\n' + m.body).then(function (ok) {
+          say(ok ? 'Copied. Paste it into an email to ' + EMAIL + ' and send.' : 'Sorry, copying did not work. Please email us at ' + EMAIL + '.', ok);
+        });
+      }
+    }
+
+    form.addEventListener('submit', function (e) { e.preventDefault(); act('mail'); });
+    [].forEach.call(form.querySelectorAll('[data-act]'), function (b) {
+      b.addEventListener('click', function () { act(b.getAttribute('data-act')); });
+    });
+  })();
+</script>
+</body>
+</html>
+
+</body></html>
