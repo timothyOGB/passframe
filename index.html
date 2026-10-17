@@ -1414,6 +1414,11 @@
           </div>
 
           <div class="field">
+            <label for="f-ref">Referred by <span class="opt">(optional)</span></label>
+            <input id="f-ref" name="referred" type="text" maxlength="100" placeholder="e.g. a friend's name">
+          </div>
+
+          <div class="field">
             <label for="f-msg">Additional message <span class="opt">(optional)</span></label>
             <textarea id="f-msg" name="message" rows="4" maxlength="1200"></textarea>
           </div>
@@ -1971,6 +1976,7 @@
 
     function compose() {
       var when = val('when') || 'Not specified';
+      var referred = val('referred') || 'Not specified';
       var message = form.elements.message.value.trim() || 'None';
       var subject = 'Introductory call request: ' + val('parent');
       var body = [
@@ -1981,6 +1987,7 @@
         'Year group: ' + val('year'),
         'Contact number: ' + val('phone'),
         'When to contact: ' + when,
+        'Referred by: ' + referred,
         '',
         'Additional message:',
         message,
