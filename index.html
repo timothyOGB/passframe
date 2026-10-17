@@ -342,13 +342,17 @@
   .avatar img { display: block; width: 100%; height: 100%; object-fit: cover; }
   .tutor-name { font-family: var(--display); font-weight: 700; font-size: 1.3rem; margin: 0; }
   .tutor-role { font-family: var(--display); font-weight: 700; font-size: 0.9rem; color: var(--brand-text); margin: 2px 0 0; }
+  :root { --pill-ink: var(--deep); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --pill-ink: var(--ink); } }
+  :root[data-theme="dark"] { --pill-ink: var(--ink); }
+
   .role-bubble {
     display: inline-block;
     margin: 6px 0 0;
     padding: 3px 12px;
     border-radius: 999px;
     background: var(--tint);
-    color: var(--deep);
+    color: var(--pill-ink);
     font-family: var(--display);
     font-weight: 700;
     font-size: 0.72rem;
