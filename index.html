@@ -823,6 +823,8 @@
   @media (max-width: 820px) { .faq-wrap { grid-template-columns: 1fr; } }
   @media (prefers-reduced-motion: reduce) { .faq-icon::before, .faq-icon::after { transition: none; } }
   .includes-title + .rates { margin-top: 18px; }
+  .role-bubble + .rates { margin-top: 12px; }
+  .rates + .role-bubble { margin-top: 26px; }
   @media (max-width: 820px) { .extras { grid-template-columns: 1fr; gap: 20px; } }
 
   /* Meet the Team accent; Additional services in the shaded rounded box */
@@ -1280,11 +1282,20 @@
       <div class="price-grid">
         <div>
           <h3 class="includes-title">11+ tuition</h3>
+
+          <span class="role-bubble">Year 5</span>
           <div class="rates">
-            <div><span class="amt">£45</span><span class="per">per hour</span></div>
-            <div><span class="amt">£90</span><span class="per">per week</span></div>
+            <div><span class="amt">£40</span><span class="per">per hour</span></div>
+            <div><span class="amt">£80</span><span class="per">per week</span></div>
           </div>
-          <p class="price-text">Specifically for 11+ preparation, for Year 4 and Year 5. Two one-hour lessons a week, so the total is <strong>£90 a week</strong>.</p>
+
+          <span class="role-bubble">Year 4</span>
+          <div class="rates">
+            <div><span class="amt">£36</span><span class="per">per hour</span></div>
+            <div><span class="amt">£72</span><span class="per">per week</span></div>
+          </div>
+
+          <p class="price-text">Specifically for 11+ preparation, for Year 4 and Year 5. Two one-hour lessons a week.</p>
         </div>
         <div>
           <h3 class="includes-title">Every family gets</h3>
@@ -1294,18 +1305,6 @@
             <li>Homework and feedback with every lesson</li>
             <li>Progress tests</li>
           </ul>
-        </div>
-      </div>
-
-      <div class="extras">
-        <div>
-          <h3 class="extras-title">Additional services</h3>
-          <p class="extras-intro">Extra support on top of your two weekly lessons.</p>
-        </div>
-        <div class="extra-item">
-          <div class="extra-rate"><span class="extra-amt">£40</span><span class="per">per hour</span></div>
-          <h4 class="extra-name">Extra homework help and specific focus lessons</h4>
-          <p class="extra-text">If your child is struggling with a particular topic and you would like us to focus on it in an extra lesson, you can arrange one with us over a call, at this rate.</p>
         </div>
       </div>
     </div>
@@ -1456,7 +1455,7 @@
             <summary>Parent terms &amp; conditions<span class="faq-icon" aria-hidden="true"></span></summary>
             <div class="policy-body">
               <h4>Payment</h4>
-              <p>Fees are £45 per hour (£90 a week) for 11+ tuition. Fees are due weekly, in advance of that week's lessons, by bank transfer unless we agree otherwise. Extra homework help or focus lessons are charged separately, at £40 per hour.</p>
+              <p>Fees for 11+ tuition are £40 per hour (£80 a week) in Year 5, and £36 per hour (£72 a week) in Year 4. Fees are due weekly, in advance of that week's lessons, by bank transfer unless we agree otherwise.</p>
               <h4>Your right to cancel (14 days)</h4>
               <p>Under the Consumer Contracts Regulations 2013, once you confirm paid lessons with us, you have the right to cancel that agreement within 14 days, without giving a reason, for a full refund of any lessons not yet delivered. If you would like lessons to begin within that 14-day period, we will only do so once you have told us that is what you want, and you accept that you may lose the right to cancel for any lessons already delivered by the time you cancel. To cancel, just email us and we will confirm and refund you within 14 days. Booking a free introductory call does not start this 14-day period, as no paid agreement is made at that stage.</p>
               <h4>Rescheduling and missed lessons</h4>
